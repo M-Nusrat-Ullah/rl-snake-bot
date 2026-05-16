@@ -28,8 +28,10 @@ The agent starts knowing nothing and learns purely through trial and error — r
 
 ---
 
+````markdown
 ## Project Structure
 
+```text
 rl-snake-bot/
 ├── game/ # Pygame Snake + Gymnasium wrapper
 │ ├── snake_game.py # Core game logic
@@ -54,6 +56,7 @@ rl-snake-bot/
 ├── Dockerfile.api
 ├── Dockerfile.frontend
 └── docker-compose.yml
+```
 
 ---
 
@@ -188,7 +191,7 @@ curl -X POST http://127.0.0.1:8000/predict \
 
 ## Developer
 
-**M. Nusrat Ullah**
+**M Nusrat Ullah**
 Software Engineer @ Nybsys, Dhaka
 [GitHub](https://github.com/M-Nusrat-Ullah)
 
@@ -197,3 +200,4 @@ Software Engineer @ Nybsys, Dhaka
 ## License
 
 MIT
+````
