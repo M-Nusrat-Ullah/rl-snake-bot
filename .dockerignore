@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+mlruns/
+models/model_ep*.pth
+frontend/node_modules/
+frontend/dist/
+.git/
+.env
+training_progress.png

@@ -5,7 +5,7 @@ import type { GameState, Action } from '../types'
 const BLOCK  = 20
 const WIDTH  = 480
 const HEIGHT = 480
-const API    = 'http://127.0.0.1:8000'
+const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
 
 function initState(): GameState {
   return {
