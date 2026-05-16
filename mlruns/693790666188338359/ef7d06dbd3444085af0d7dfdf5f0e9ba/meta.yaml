@@ -1,0 +1,14 @@
+artifact_uri: /home/tahmid/VS Code/rl-snake-bot/mlruns/693790666188338359/ef7d06dbd3444085af0d7dfdf5f0e9ba/artifacts
+end_time: 1778929736079
+entry_point_name: ''
+experiment_id: '693790666188338359'
+lifecycle_stage: active
+run_id: ef7d06dbd3444085af0d7dfdf5f0e9ba
+run_name: dqn-baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778926206600
+status: 3
+tags: []
+user_id: tahmid
