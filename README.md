@@ -3,6 +3,7 @@
 A Reinforcement Learning agent that learns to play Snake from scratch using Deep Q-Network (DQN). Trained with PyTorch, tracked with MLflow, served via FastAPI, and visualized in a React frontend.
 
 ![Training Progress](training_progress.png)
+![Demo](demo.gif)
 
 ---
 
@@ -59,6 +60,7 @@ rl-snake-bot/
 ```
 
 ---
+
 
 ## How It Works
 
