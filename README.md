@@ -31,28 +31,28 @@ The agent starts knowing nothing and learns purely through trial and error — r
 ````markdown
 ## Project Structure
 
-```
+```text
 rl-snake-bot/
-├── game/ # Pygame Snake + Gymnasium wrapper
-│ ├── snake_game.py # Core game logic
-│ └── snake_env.py # Gymnasium environment
-├── agent/ # DQN implementation
-│ ├── model.py # Neural network (DQN)
-│ ├── replay_buffer.py # Experience replay memory
-│ ├── agent.py # DQN agent (epsilon-greedy, learn)
-│ ├── train.py # Basic training loop
-│ └── train_mlflow.py # Training with MLflow tracking
-├── api/ # FastAPI service
-│ ├── main.py # Endpoints: /, /info, /predict
-│ └── schemas.py # Pydantic request/response models
-├── config/ # Hyperparameter config
-│ └── training_config.py
-├── frontend/ # React live demo
-│ └── src/
-│ ├── components/ # SnakeCanvas, StatsPanel, Controls
-│ ├── hooks/ # useSnakeGame (game loop + API calls)
-│ └── types.ts
-├── models/ # Saved model checkpoints
+├── game/                      # Pygame Snake + Gymnasium wrapper
+│   ├── snake_game.py          # Core game logic
+│   └── snake_env.py           # Gymnasium environment
+├── agent/                     # DQN implementation
+│   ├── model.py               # Neural network (DQN)
+│   ├── replay_buffer.py       # Experience replay memory
+│   ├── agent.py               # DQN agent (epsilon-greedy, learn)
+│   ├── train.py               # Basic training loop
+│   └── train_mlflow.py        # Training with MLflow tracking
+├── api/                       # FastAPI service
+│   ├── main.py                # Endpoints: /, /info, /predict
+│   └── schemas.py             # Pydantic request/response models
+├── config/                    # Hyperparameter config
+│   └── training_config.py
+├── frontend/                  # React live demo
+│   └── src/
+│       ├── components/        # SnakeCanvas, StatsPanel, Controls
+│       ├── hooks/             # useSnakeGame (game loop + API calls)
+│       └── types.ts
+├── models/                    # Saved model checkpoints
 ├── Dockerfile.api
 ├── Dockerfile.frontend
 └── docker-compose.yml
