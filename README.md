@@ -31,6 +31,7 @@ The agent starts knowing nothing and learns purely through trial and error — r
 ````markdown
 ## Project Structure
 
+```
 rl-snake-bot/
 ├── game/ # Pygame Snake + Gymnasium wrapper
 │ ├── snake_game.py # Core game logic
@@ -55,6 +56,7 @@ rl-snake-bot/
 ├── Dockerfile.api
 ├── Dockerfile.frontend
 └── docker-compose.yml
+```
 
 ---
 
